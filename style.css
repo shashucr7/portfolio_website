@@ -1,0 +1,127 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(243, 240, 240);
+    
+}
+header{
+    background-color: rgb(237, 170, 43);
+    color: rgb(32, 32, 32);
+    padding:2rem;
+    display:flex;
+    justify-content: space-between;
+   
+    text-align: center;
+
+}
+.photo img{
+    max-width:200px;
+    height:7.5rem;
+    border-style:solid ;
+
+    border-color: rgb(0, 0, 0);
+    
+}
+.tappin li{
+    list-style-type: square;
+    
+}
+.bro{
+    
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(247, 234, 234);
+    list-style-type: square;
+    
+    font-style: arial;
+}
+.bro li{
+    list-style-type: square;
+    
+}
+footer{
+    text-align: center;
+
+    color: rgb(6, 6, 6);
+    background-color: lab(73.41% 6.67 73.53);
+}
+.social-links a{
+    color: rgb(2, 2, 2);
+    text-decoration:none;
+    margin:0 10px;
+}
+header .name{
+    text-align: center;
+}
+.photop{
+    border-style: solid;
+    border-color: rgb(255, 246, 246);
+    
+}
+.name li{
+    margin: 0 1rem;
+    position: relative;
+}
+.parentclass{
+    position: relative;
+    display: inline-block;
+}
+.childclass{
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    background-color: rgb(224, 224, 224);
+}
+.parentclass:hover .childclass{
+    display: block;
+}
+.parentclass a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+.parentclass a:hover{
+    color: rgb(202, 176, 176);
+
+}
+.social-links a:hover{
+    color: brown;
+    
+}
+.tappin{
+    
+    font-style: arial;
+    background-color: rgba(147, 101, 7, 0);
+    border-style: solid;
+    border-color: rgb(244, 241, 241);
+
+    
+}
+.photo{
+    background-color: rgba(255, 244, 146, 0.705);
+}
+h3,h2,caption{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width=768px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo{
+        margin-bottom: 1rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    
+} 
